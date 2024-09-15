@@ -1,5 +1,9 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
-  <div>
-    <h1>Hubert Store</h1>
+  <div class="flex place-self-center my-20 w-3/4 max-w-[800px]">
+    <ContentDoc class="text-center text-xl" />
   </div>
 </template>

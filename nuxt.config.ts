@@ -4,7 +4,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@sidebase/nuxt-auth',
     '@nuxtjs/google-fonts',
-    'shadcn-nuxt'
+    'shadcn-nuxt',
+    '@nuxt/content'
   ],
 
   build: {
@@ -29,7 +30,8 @@ export default defineNuxtConfig({
 
   googleFonts: {
     families: {
-      Rubik: true
+      'Rubik': true,
+      'Protest Guerrilla': true
     }
   },
 
