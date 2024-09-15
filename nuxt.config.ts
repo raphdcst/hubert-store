@@ -2,7 +2,9 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
-    '@sidebase/nuxt-auth'
+    '@sidebase/nuxt-auth',
+    '@nuxtjs/google-fonts',
+    'shadcn-nuxt'
   ],
 
   build: {
@@ -24,5 +26,17 @@ export default defineNuxtConfig({
     config: {},
     viewer: true,
   },
+
+  googleFonts: {
+    families: {
+      Rubik: true
+    }
+  },
+
+  shadcn: {
+    prefix: '',
+    componentDir: './components/ui'
+  },
+
   compatibilityDate: '2024-09-15'
 })

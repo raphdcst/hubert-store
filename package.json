@@ -14,27 +14,36 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "superjson": "^2.2.1",
-    "zod": "^3.22.4",
-    "trpc-nuxt": "^0.10.21",
+    "@prisma/client": "^5.18.0",
     "@trpc/client": "^10.45.2",
     "@trpc/server": "^10.45.2",
-    "@prisma/client": "^5.18.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.441.0",
     "nuxt": "^3.12.4",
-    "vue": "latest"
+    "radix-vue": "^1.9.5",
+    "shadcn-nuxt": "^0.10.4",
+    "superjson": "^2.2.1",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "trpc-nuxt": "^0.10.21",
+    "vue": "latest",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@sidebase/nuxt-auth": "^0.8.2",
-    "prisma": "^5.18.0",
-    "@nuxtjs/tailwindcss": "^6.11.4",
-    "@types/node": "^20.11.30",
-    "typescript": "^5.4.3",
-    "vue-tsc": "^2.0.7",
-    "oxlint": "^0.7.2",
     "@antfu/eslint-config": "^2.26.0",
-    "eslint": "^8.57.0"
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@sidebase/nuxt-auth": "^0.8.2",
+    "@types/node": "^20.11.30",
+    "eslint": "^8.57.0",
+    "oxlint": "^0.7.2",
+    "prisma": "^5.18.0",
+    "typescript": "^5.4.3",
+    "vue-tsc": "^2.0.7"
   },
   "peerDependencies": {
     "next-auth": "4.21.1"
-  }
+  },
+  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c"
 }
