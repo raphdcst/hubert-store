@@ -41,5 +41,7 @@
     "toml",
     "gql",
     "graphql"
-  ]
+  ],
+
+  //Custom rules
 }
