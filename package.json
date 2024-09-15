@@ -13,6 +13,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
   "dependencies": {
     "@nuxt/content": "^2.13.2",
     "@prisma/client": "^5.18.0",

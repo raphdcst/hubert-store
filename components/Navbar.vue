@@ -12,32 +12,32 @@ import {
 const components: { title: string, href: string, description: string }[] = [
   {
     title: 'Le Gourmet Parisien',
-    href: '/legourmetparisien',
+    href: '/restaurants/legourmetparisien',
     description: 'Un restaurant chic offrant une cuisine française raffinée avec des produits de saison.'
   },
   {
     title: 'La Trattoria Napoli',
-    href: '/latrattorianapoli',
+    href: '/restaurants/latrattorianapoli',
     description: 'Savourez des plats italiens authentiques avec des pâtes fraîches et des pizzas au feu de bois.'
   },
   {
     title: 'Sushi Zen',
-    href: '/sushizen',
+    href: '/restaurants/sushizen',
     description: 'Un havre de paix pour les amateurs de sushi avec des produits frais et des présentations élégantes.'
   },
   {
     title: 'El Asador',
-    href: '/elasadorgrill',
+    href: '/restaurants/elasadorgrill',
     description: 'Restaurant grill argentin servant des viandes succulentes cuites à la perfection.'
   },
   {
     title: 'Curry House',
-    href: '/curryhouse',
+    href: '/restaurants/curryhouse',
     description: 'Un voyage épicé à travers la cuisine indienne avec des plats riches en saveurs.'
   },
   {
     title: 'The Vegan Spot',
-    href: '/theveganspot',
+    href: '/restaurants/theveganspot',
     description: 'Un restaurant moderne proposant des plats végétaliens créatifs et savoureux.'
   }
 ]
